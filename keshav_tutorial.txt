@@ -3,7 +3,9 @@ Keshav-Project folder is register in github to the repo: https://github.com/Moha
 -----steps---(in git bash)
 1> file create in keshav-project folder in your computer
 2> you make modification to that file 
-3>git status(rato color ma dekhiyeko file uncommited ho )
+3>git status(rato color ma dekhiyeko file unadded ho )
 4>git add filename or (git add .) aba git status garda hariyo sab file dekhinu paryo
 5>git commit -m"mysql query added"
 6>git push keshav keshav-branch
+7>git checkout -b keshav-branch
+8>git push keshav keshav-branch
