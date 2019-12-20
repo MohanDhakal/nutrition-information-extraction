@@ -1,0 +1,1 @@
+$sql="Insert into image_calorie(image_id ,fat_calorie,carb_calorie,protein_calorie,total_calories,user_id)values('{$image_id}','{$fat_calorie}','{$carb_calorie}','{$protein_calorie}','{$total_calories}','{$user_id})";

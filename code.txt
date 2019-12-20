@@ -17,13 +17,15 @@ if(isset($_POST['protein_calorie'])){
 if(isset($_POST['carb_calorie'])){
     $carb_calorie = $_POST['carb_calorie'];  
 }
-
+if(isset($total_calories)){
+    $total_calories ;
+   
+}
 if(isset( $_POST['user_id'])){
     $user_id = $_POST['user_id'];  
 }
-
 $total_calories =$fat_calorie + $carb_calorie + $protein_calorie;
-$mero_sql ="Insert Into image_calories(fat_calorie,carb_calorie,protein_calorie,calorie_t,user_id)VALUES('$fat_calorie','$carb_calorie','$protein_calorie','$total_calories','$user_id');";
+$mero_sql ="Insert Into image_calorie(fat_calorie,carb_calorie,protein_calorie,total_calories,user_id)VALUES('$fat_calorie','$carb_calorie','$protein_calorie','$total_calories','$user_id');";
 
 mysqli_query($conn,$mero_sql);
 
